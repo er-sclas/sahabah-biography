@@ -53,7 +53,7 @@ export default function MarthadBiography() {
   return (
     <>
       {/* Sub-navigation for biography sections */}
-      <div className="sticky top-[57px] z-40 border-b border-slate-800/60 bg-[#0F172A]/90 backdrop-blur-xl">
+      <div className="sticky top-[53px] z-40 border-b border-slate-800/60 bg-[#0F172A]/90 backdrop-blur-xl -mt-px">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-6 py-2.5">
           <Link
             to="/"
