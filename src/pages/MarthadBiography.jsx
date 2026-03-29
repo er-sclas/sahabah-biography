@@ -9,6 +9,7 @@ import {
   Swords,
   Shield,
   BookMarked,
+  Play,
 } from "lucide-react";
 
 const sections = [
@@ -281,6 +282,38 @@ export default function MarthadBiography() {
               </sup>
             </p>
           </ContentCard>
+        </section>
+
+        {/* Watch the Video */}
+        <section className="mb-20">
+          <SectionHeading icon={Play} label="Watch the Video" />
+          <a
+            href="https://youtu.be/uj2ol_BT78Y"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block overflow-hidden rounded-2xl border border-slate-800/60 bg-slate-800/20 no-underline transition-all hover:border-sand-300/30 hover:bg-slate-800/40"
+          >
+            <div className="relative aspect-video w-full overflow-hidden">
+              <img
+                src="https://img.youtube.com/vi/uj2ol_BT78Y/maxresdefault.jpg"
+                alt="Watch: Marthad bin Abi Marthad Al-Ghanawi"
+                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/20">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-sand-300/90 shadow-lg transition-transform group-hover:scale-110">
+                  <Play className="h-7 w-7 fill-[#0F172A] text-[#0F172A] ml-1" />
+                </div>
+              </div>
+            </div>
+            <div className="px-6 py-4">
+              <p className="text-sm font-medium text-slate-300 group-hover:text-sand-300 transition-colors">
+                Watch on YouTube
+              </p>
+              <p className="mt-1 text-xs text-slate-500">
+                Authentic Biographies &middot; Marthad bin Abi Marthad Al-Ghanawi
+              </p>
+            </div>
+          </a>
         </section>
 
         {/* References */}
