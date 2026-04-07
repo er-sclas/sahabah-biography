@@ -1,16 +1,30 @@
-# React + Vite
+# Sahabah Biography
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Translating the biographies of the Salaf and those who followed them in goodness*
 
-Currently, two official plugins are available:
+A website presenting translated biographies of the Sahabah (companions of the Prophet Muhammad, peace be upon him) and the early Muslim generations. The site makes these historical accounts accessible to an English-speaking audience with scholarly rigor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Currently features the biography of Marthad bin Abi Marthad Al-Ghanawi, with more biographies planned.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Detailed biography pages with structured sections and scroll-based navigation
+- Scholarly references and source citations from classical Islamic texts
+- Embedded video content
+- Responsive design with mobile navigation
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- Tailwind CSS
+- React Router
+
+## Getting Started
+
+```
+npm install
+npm run dev
+```
+
+The development server will start at http://localhost:5173.
